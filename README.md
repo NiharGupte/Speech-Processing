@@ -1,10 +1,20 @@
-# EE679
-Projects related to Speech Processing
 
-Hello all,
-These are the projects I have done as a part of my curriculum at IIT Bombay for the course EE679 - Speech Processing.
+# Speech Processing Projects
 
-Assigment 1A consists of generating vowels using source filter model, along with implementation of IIR
-Assignment 1B consists of using the STFT method in order to observe the formant frequencies
-Assignment 2 consists of using LPC method for analysis of speech signal, observing the formants. Also for pitch detection.
-Project is based on classification of musical instruments from their sounds using KNN along with K means clustering, in addition to a more general neural network approach. 
+The repository consists of speech based projects.
+
+## Project
+Classification of musical instruments from their sounds.
+Extracted multiple spectral and temporal features from each audio sample of the IRMAS dataset
+◦ Employed VQ codebook matching algorithm and neural networks toward the classification task
+◦ Achieved an accuracy of 65.05% with neural networks model on 11 classes of musical instruments
+
+## Assignment 1A
+Generation of vowels using source filter model, along with implementation of IIR Filter.
+
+## Assignment 1B
+Using the STFT (Short Term Fourier Transform) method in order to observe the formant frequencies present in the audio.
+
+## Assignment 2 
+Using LPC (Linear Predictive Coding) method for analysis of speech signal, observing the formants, and for pitch detection.
+
